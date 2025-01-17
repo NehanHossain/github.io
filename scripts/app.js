@@ -12,32 +12,6 @@
             location.href = "about.html";
         });
 
-<<<<<<< HEAD
-        let MainContent = document.getElementsByName("MainContent")[0];
-
-        //<p id="MainParagraph" class="mt-3">this is my first paragraph
-        let MainParagraph=document.createElement('p');
-        MainParagraph.setAttribute("id", "MainParagraph");
-        MainParagraph.setAttribute("class", "Mt-3");
-
-        //attach to the dom
-        MainContent.appendChild(MainParagraph);
-
-        let FirstString = "this is"
-        let SecondString = `${FirstString}  is my second paragraph`;
-        MainParagraph.textContent = SecondString;
-
-        // Attach to dom
-        MainParagraph.appendChild(MainParagraph);
-
-        let DocumentBody = document.body;
-        //
-        let Article = Document.createElement("article");
-        let ArticleParagraph = `<p id="ArticleParagraph" class="mt-3">this is my paragraph</p>`;
-        Article.setAttribute("class", "container");
-        Article.innerHTML = ArticleParagraph;
-        DocumentBody.appendChild(Article);
-=======
         let MainContent = document.getElementsByTagName("main")[0];
         //<p id="MainParagraph" class="mt-3">This is my first paragraph</p>
         let MainParagraph = document.createElement("p");
@@ -66,7 +40,6 @@
 
 
 
->>>>>>> 0c3abb2 (commit)
     }
 
     function DisplayAboutPage(){
