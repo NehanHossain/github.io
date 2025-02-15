@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="./content/app.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+</head>
+
+<header></header>
+
+<body>
+
+<!-- Main Content -->
+<main class="container" id="mainContent">
+    <div class="row">
+        <div class="offset-md-3 col-md-6 col-sm-12">
+            <div class="login" id="contentArea">
+                <h1 class="display-4">Register</h1>
+                <form id="registerForm" novalidate>
+                    <p class="hint-text">Create your own account. It's free and only takes a minute.</p>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="firstName" id="FirstName" placeholder="First Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input class="form-control" type="text" name="lastName" id="lastName" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="email" class="form-control" id="emailAddress" name="emailAddress" required
+                                       value="" placeholder="Email">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="password" class="form-control" id="password" name="password"  required
+                                       value="" placeholder="Password">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword"
+                                       required value="" placeholder="Confirm Password">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="text-right">
+                        <button id="submitButton" type="submit" class="btn btn-primary btn-lg">Register</button>
+                    </div>
+                </form>
+
+            </div>
+            <p class="text-center text-muted small">
+                Already have an account?
+                <a href="login.html">Sign in</a>
+            </p>
+        </div>
+    </div>
+</main>
+
+
+<!-- Include Scripts -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./scripts/namespace.js"></script>
+<script src="./scripts/contact.js"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>

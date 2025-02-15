@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Contact</title>
+
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="./content/app.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+</head>
+
+<header></header>
+
+<body>
+
+<main class="container">
+    <h1 class="mb-5">Edit Contact</h1>
+
+    <form class="col-lg-6 col-md-10 col-sm-12 mb-4">
+
+        <div class="input-group mb-3">
+            <label for="fullName" class="input-group-text">Full Name</label>
+            <input id="fullName" name="fullName" type="text" class="form-control"
+                   aria-describedby="fullName-error" required>
+            <span id="fullName-error" class="text-danger"></span>
+        </div>
+
+        <div class="input-group mb-3">
+            <label for="contactNumber" class="input-group-text">Contact Number</label>
+            <input id="contactNumber" name="contactNumber" type="tel" class="form-control"
+                   aria-describedby="Contact Number" aria-label="Contact Number" required>
+            <span id="contactNumber-error" class="text-danger"></span>
+        </div>
+
+
+        <div class="input-group mb-3">
+            <label for="emailAddress" class="input-group-text">Email Address</label>
+            <input id="emailAddress" name="emailAddress" type="email" class="form-control"
+                   aria-describedby="emailAddress-error" required>
+            <span id="emailAddress-error" class="text-danger"></span>
+        </div>
+
+        <button id="editButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i>Edit</button>
+        <button id="cancelButton" type="reset" class="btn btn-warning"><i class="fa-solid fa-rotate-left"></i>Cancel</button>
+
+    </form>
+
+</main>
+
+<!-- Include Scripts -->
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="./scripts/namespace.js"></script>
+<script src="./scripts/contact.js"></script>
+<script src="./scripts/app.js"></script>
+</body>
+</html>
