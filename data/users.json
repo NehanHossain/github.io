@@ -1,0 +1,33 @@
+{
+  "users" :
+  [
+    {
+      "DisplayName" : "Bilbo Baggins",
+      "EmailAddress" : "bbaggins@durhamcollege.ca",
+      "Username" : "bbaggins",
+      "Password" : "123456"
+    },
+
+    {
+      "DisplayName" : "Samwise Gamgee",
+      "EmailAddress" : "sgamgeee@durhamcollege.ca",
+      "Username" : "sgamgee",
+      "Password" : "987654"
+    },
+    
+    {
+      "DisplayName" : "admin",
+      "EmailAddress" : "admin@durhamcollege.ca",
+      "Username" : "admin",
+      "Password" : "password"
+    }
+  ]
+
+
+
+
+
+
+
+
+}
